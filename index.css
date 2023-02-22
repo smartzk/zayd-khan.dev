@@ -260,12 +260,12 @@ body {
 
  
   nav{
-    background: #00070c;
+    background: rgb(51, 51, 51);;
     height: 80px;
     width: 100%;
   }
   label.logo {
-    colour: white;
+    colour: rgb(255, 170, 0);
    
   }
 
@@ -283,7 +283,7 @@ body {
   nav ul li a {
     color: white;
     font-size: 25px;
-    padding: 7px 13px;
+    padding: 16px 13px;
     border-radius: 3px;
     text-transform: uppercase;
     -webkit-border-radius: 3px;
@@ -294,11 +294,24 @@ body {
 
   a.active,a:hover{
     background: #0e0373;
-    transition: .72s;
-    -webkit-transition: .72s;
-    -moz-transition: .72s;
-    -ms-transition: .72s;
-    -o-transition: .72s;
+    transition: .108s;
+    -webkit-transition: .108s;
+    -moz-transition: .108s;
+    -ms-transition: .108s;
+    -o-transition: .108s;
+}
+
+#Press_me_to_continue{
+    background-color: #00e5ff;
+    border: none;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 20%;
+    left: 50%;
+    padding: 80px 50px;
+    font-size: 30px;
+    font-weight: bold;
+    border-radius: 5vh;
 }
 
 
